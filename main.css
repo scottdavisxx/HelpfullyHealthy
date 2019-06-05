@@ -1,0 +1,51 @@
+.filters {
+    float: left;
+}
+
+.cardBox {
+    display: flex;
+    float: right;
+}
+
+.drugCard {
+    flex: 1;
+    height: 350px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    background-image: linear-gradient(to right, aliceblue, whitesmoke);
+}
+
+.cardContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 2% 0 2%;
+}
+
+.cardTitle {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.cardPic {
+    flex: 1;
+    //border-style: solid;
+}
+
+.cardBlurb {
+    flex: 1;
+    //border-style: solid;
+
+}
+
+.cardLinks {
+    flex: 1;
+    //border-style: solid;
+
+}
+
+.pic {
+    height: 250px;
+    width: auto;
+}
