@@ -11,21 +11,31 @@ body{
     box-shadow:6px 8px 15px #000000;
     font-size: 16px;
     text-align:left;
+    min-width:250px;
 }
 .boxwidth{
     margin: 0 auto;
 }
 .inputbox{
-    padding:20px;
+    padding:5px;
     
 }
-/* --------------------home page */
+.btnsize{
+    min-width:100px;
+}
+/* ------------------home page */
 .inputback{
     background-image: url(../images/bricks-brickwall-brickwork-1092364.jpg);
     background-size:cover; 
 }
 .filter_spac{
-    margin:20px;
     border-radius:3px;
     padding: 10px;
+    min-width: 200px;
+}
+.formspacing{
+    padding:3px;
+}
+.marginall{
+    margin:10px 0px 10px 10px;
 }
