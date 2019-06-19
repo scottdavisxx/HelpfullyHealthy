@@ -37,5 +37,19 @@ body{
 }
 .marginall{
     margin:10px 0px 10px 10px;
+} 
+
+@media(min-width:769px){
+    .flexfilter{
+        display:flex;
+        width:200px;
+        margin-right:10px;
+    }
+    .flextest{
+        display:flex;
+        flex-direction:column;
+        margin-right:10px;
+    }
 }
+
 
