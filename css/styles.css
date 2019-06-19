@@ -21,8 +21,9 @@ body{
 }
 /* --------------------home page */
 .inputback{
-    background-image: url(../images/bricks-brickwall-brickwork-1092364.jpg);
-    background-size:cover; 
+    background-image: url(../images/white_carbon_@2X.png);
+    //background-size:cover;
+
 }
 .filter_spac{
     margin:20px;
