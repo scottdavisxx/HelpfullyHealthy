@@ -17,10 +17,7 @@ body{
     margin: 0 auto;
 }
 .inputbox{
-    padding:5px;  
-}
-.linkdecor{
-    list-style-type: none; 
+
 }
 .btnsize{
     min-width:100px;
@@ -41,6 +38,7 @@ body{
 .marginall{
     margin:10px 0px 10px 10px;
 } 
+
 @media(min-width:769px){
     .flexfilter{
         display:flex;
@@ -55,19 +53,3 @@ body{
 }
 
 
-@media(max-width:768px){
-    .mobile{
-        display:flex;
-        flex-direction:column;
-    }
-    .flexfilter{
-        display:flex;
-        margin-right:10px;
-    }
-    .flextest{
-        display:flex;
-        flex-direction:column;
-        margin:10px 10px 0px 0px;
-    
-    }
-}
