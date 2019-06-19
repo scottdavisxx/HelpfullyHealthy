@@ -84,16 +84,6 @@
     text-align: center;
 }
 
-@media only screen and (max-width: 600px) {
-    .cardBox, .rightHalf, .drugs, .condition, .heart, .std, .disability {
-        flex-direction: column;
-    }
-    .picContainer {
-        flex-shrink: 1;
-    }
-}
-
-
 /******************************** CODE GRAVEYARD ******************************************************/
 
 
